@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* CSS Code for Nav Section */
+nav {
+  background-color: black;
+  padding: 20px;
+}
+.games {
+  text-align: center;
+  font-size: 30px;
+}
+.navli {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  min-width: 100px;
+  color: black;
+  border: 2px solid black;
+}
+#carouselExampleFade {
+  /* margin: top/bottom left/right; */
+  margin: 6% auto;
+  width: 80%;
+  border: ;
+}
+.events {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 4vw;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cimage {
+  height: 80vh;
+  object-fit: cover;
+}
+.product-para {
+  color: white;
+}
+.rated {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.7;
+  width: 60%;
+}
+.rated:hover {
+  opacity: 1;
+}
+.price {
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+.order-buttons {
+  border-radius: 5px;
+  color: white;
+  background-color: gray;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  width: 50%;
+}
+#order-buttons-color {
+  color: black;
+  background-color: cyan;
+}
+#product {
+  padding: 20px;
+  border-top: 3px solid white;
+}
+
+.gametitle {
+  color: white;
+}
+
+/* fonts */
+
+/* 1. product page: */
+.mina-regular {
+  font-family: "Mina", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mina-bold {
+  font-family: "Mina", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+}
